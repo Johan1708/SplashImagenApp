@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cat Coffee</string>
+    <string name="titulo_app">¡Bienvenido a Cat Coffee!</string>
+    <string name="mensaje_app">Configuración cargada con éxito. Disfruta del mejor cafe.</string>
+</resources>

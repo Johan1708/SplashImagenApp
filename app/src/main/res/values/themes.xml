@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema Base de la App -->
+    <style name="Base.Theme.SplashImagenApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Theme.SplashImagenApp" parent="Base.Theme.SplashImagenApp" />
+
+    <!-- Tema Temporal del SplashScreen (Arranque) -->
+    <style name="Theme.SplashImagenApp.Starting" parent="Theme.SplashScreen">
+        <!-- Color opaco de fondo durante el arranque -->
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+
+        <!-- Tu imagen/logo centrado -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_splash</item>
+
+        <!-- Tema que se aplicará automáticamente al terminar la carga -->
+        <item name="postSplashScreenTheme">@style/Theme.SplashImagenApp</item>
+    </style>
+</resources>
